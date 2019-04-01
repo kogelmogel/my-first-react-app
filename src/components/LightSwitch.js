@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export default class LightSwitch extends Component {
   state = { active: true }
 
-  toggle = () => {
-    this.setState({
+  toggle = () => { //this is a function when button is clicked
+    this.setState({ //setState is used when we want action to happen
       active: !this.state.active
     })
   }
